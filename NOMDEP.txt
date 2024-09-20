@@ -1,0 +1,11 @@
+     A* TABLA DE DEPARTAMENTO
+     A* FECHA CREACION: 29/06/2020
+     A* AUTHOR: GLOBAL LEARNING XXI
+     A*-------------------------------------------------------------------------
+     A                                      UNIQUE
+     A          R RNOMDEP
+     A            NOMDPT         3S 0       TEXT('NOMBRE DEPARTAMENTO')
+     A                                      COLHDG('NOMBRE DE' 'DEPARTAMENTO')
+     A            NOMDSC        50A         TEXT('DESCRIPCIO DEPARTAMENTO')
+     A                                      COLHDG('DESCRIPCION' 'DEPARTAMENTO')
+     A          K NOMDPT

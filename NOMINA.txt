@@ -1,0 +1,18 @@
+     A*---------------------------------------------------------------*
+     A* NOMBRE DEL ARCHIVO: MAESTRO DE EMPLEADOS
+     A* FECHA DE CREACION: 29/06/2022
+     A* AUTOR: GLOBAL LEARNING XXI
+     A*---------------------------------------------------------------*
+     A                                      UNIQUE
+     A          R RNOMINA                   TEXT('REGISTRO NOMINA')
+     A            NOMIDN        20A         COLHDG('NUM. IDETIFICACION')
+     A            NOMPNM        30A         COLHDG('PRIMER NOMBRE')
+     A            NOMSNM        30A         COLHDG('SEGUNDO NOMBRE')
+     A            NOMPAP        30A         COLHDG('PRIMER APELLIDO')
+     A            NOMSAP        30A         COLHDG('SEGUNDO APELLIDO')
+     A            NOMSEX         1A         COLHDG('SEXO')
+     A            NOMDPT         3S 0       COLHDG('CODIGO' 'DEPARTAMENTO')
+     A            NOMSLR        11S 2       COLHDG('SALARIO')
+     A            NOMFRG          Z         COLHDG('FECHA DEL RESGISTRO')
+     A* CLAVE PRIMARIA
+     A          K NOMIDN
